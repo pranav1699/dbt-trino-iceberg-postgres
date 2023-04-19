@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+  - name: local_postgres_trino
+    description: This is the products table in postgres
+    catalog: local_postgres
+    schema: public
+    tables:
+     - name : names 
+
